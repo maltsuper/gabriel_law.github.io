@@ -1,21 +1,174 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <title>Your Name</title>
+    <title>LWFL RVWS</title>
     <meta charset="UTF-8">
+
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet"> 
     <style>
-        body { font-family: Arial; padding: 40px; background: #1c1b1b; }
-        h1 { color: #333; }
-	  body {
-    background-color: #FF474C;
-  }
+        @font-face {
+  font-family: 'Bebas Neue';
+  src: url('fonts/BebasNeue-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+        body { font-family: 'Bebas Neue', Arial, sans-serif; 
+        padding: 40px; 
+        background: #FFFFFF; 
+    }
+        h1 { 
+            color: #333;
+             }
+
+        h2 { 
+    color: #333;
+        }
+
+.album-grid {
+            display: grid;
+            grid-template-columns: repeat(4, minmax(180px, 1fr));
+            gap: 30px;
+            justify-items: center;
+        }
+
+        .album {
+            color: gray;
+            text-align: center;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+
+        .album img {
+            width: 180px;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .album:hover {
+            transform: scale(1.05);
+        }
+
+        .album-name {
+            margin-top: 10px;
+            font-size: 1.2rem;
+        }
+
+        .album-score0 {
+                    font-size: 1rem;
+                    color: #ff2525; 
+                }
+        
+        .album-score1to2 {
+                            font-size: 1rem;
+                            color: #f84825; 
+                        }
+
+        .album-score3 {
+                    font-size: 1rem;
+                    color: #e48f4a; 
+                }
+
+        .album-score4 {
+                    font-size: 1rem;
+                    color: #ffc34d; 
+                }
+
+        .album-score5 {
+                    font-size: 1rem;
+                    color: #606060; 
+                }
+
+        .album-score6 {
+            font-size: 1rem;
+            color: #fff75f; 
+        }
+
+        .album-score7 {
+                    font-size: 1rem;
+                    color: #baf34a; 
+                }
+
+        .album-score8 {
+            font-size: 1rem;
+            color: #77f34a; 
+        }
+
+        .album-score9to10 {
+            font-size: 1rem;
+            color: #00ff26;
+        }
+
+        .album-scoretbd {
+            font-size: 1rem;
+            color: #606060;
+        }
+
     </style>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
 </head>
+
 <body>
-    <h1><Centre>Lawful Reviews</Centre.</h1>
-    <p><centre>Reviewing the music industry, one record at a time.</centre></p>
+    <h1 style="text-align: center;">Lawful Reviews</h1>
+    <p style="text-align:center;">WELCOME</p>
 
         <h2>Contact</h2>
     <p>Email: your@email.com</p>
+
+
+<div class="album-grid">
+        <a href="album_pages/debi-tirar-mas-fotos_bad-bunny.html" class="album">
+            <img src="album_covers/debitirarmasfotos_badbunny.jpg" alt="Debi Tirar Mas Fotos">
+            <div class="album">DTMF</div>
+            <div class="album-score9to10">9.3/10</div>
+        </a>
+
+        <a href="album_pages/nb2_no-buses.html" class="album">
+            <img src="album_covers/nb2_no-buses.jpg" alt="nb2">
+            <div class="album">NB2</div>
+            <div class="album-score8">8.5/10</div>
+        </a>
+
+        <a href="album_pages/the-art-of-loving_olivia-dean.html" class="album">
+            <img src="album_covers/the-art-of-loving_olivia-dean.jpg" alt="The Art Of Loving">
+            <div class="album">The Art Of Loving</div>
+            <div class="album-score8">8.3/10</div>
+        </a>
+
+        <a href="album_pages/yeezus_kanye-west.html" class="album">
+            <img src="album_covers/yeezus_kayne-west.jpg" alt="Yeezus">
+            <div class="album">Yeezus</div>
+            <div class="album-scoretbd">TBD</div>
+        </a>
+
+        <a href="album_pages/vespertine-bjork.html" class="album">
+            <img src="album_covers/vespertine-bjork.jpg" alt="Yeezus">
+            <div class="album">Vespertine</div>
+            <div class="album-scoretbd">TBD</div>
+        </a>
+
+        <a href="album_pages/sgt-peppers-lonely-hearts-club-band_the-beatles.html" class="album">
+            <img src="album_covers/sgt-peppers-lonely-hearts-club-band_the-beatles.jpg" alt="Yeezus">
+            <div class="album">Sgt. Pepper's Lonely Hearts Club Band</div>
+            <div class="album-score5">5.0/10</div>
+        </a>
+
+        <a href="album_pages/i-care-because-you-do_aphex-twin.html" class="album">
+            <img src="album_covers/i-care-because-you-do_aphex-twin.jpg" alt="Yeezus">
+            <div class="album">...I Care Because You Do</div>
+            <div class="album-score3">3.1/10</div>
+        </a>
+
+        <a href="album_pages/the-rise-and-fall-of-a-midwest-princes_chappell-roan.html" class="album">
+            <img src="album_covers/the-rise-and-fall-of-a-midwest-princess_chappell-roan.jpg" alt="Yeezus">
+            <div class="album">The Rise and Fall of a Midwest Princess</div>
+            <div class="album-score3">3.0/10</div>
+        </a>
+
+    </div>
+
 </body>
+
 </html>
