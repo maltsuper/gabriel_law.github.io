@@ -10,9 +10,31 @@
     <style>
         @font-face {
   font-family: 'Bebas Neue';
-  src: url('fonts/BebasNeue-Regular.ttf') format('truetype');
+  src: url('../fonts/BebasNeue-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
+        }
+
+        @font-face {
+    font-family: 'Gruppo';
+    src: url('../fonts/Gruppo-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+        }
+
+        @font-face {
+    font-family: 'Mynerve';
+    src: url('../fonts/Mynerve-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+        }
+        @font-face {
+    font-family: 'LondrinaSolid';
+    src: url('../fonts/LondrinaSolid-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
 }
         body { font-family: 'Bebas Neue', Arial, sans-serif; 
         padding: 40px; 
@@ -21,6 +43,10 @@
         h1 { 
             color: #333;
              }
+
+        p { font-family: 'Gruppo', Arial, sans-serif; 
+        padding: 20px; 
+            }
 	
 .album-grid {
             display: grid;
@@ -51,23 +77,108 @@
             font-size: 1.2rem;
         }
 
-        .album-score {
+        .album-score0 {
+                    font-size: 1rem;
+                    color: #ff2525; 
+                }
+        
+        .album-score1to2 {
+                            font-size: 1rem;
+                            color: #f84825; 
+                        }
+
+        .album-score3 {
+                    font-size: 1rem;
+                    color: #e48f4a; 
+                }
+
+        .album-score4 {
+                    font-size: 1rem;
+                    color: #ffc34d; 
+                }
+
+        .album-score5 {
+                    font-size: 1rem;
+                    color: #606060; 
+                }
+
+        .album-score6 {
             font-size: 1rem;
-            color: #FFD700; /* gold star-like color for score */
+            color: #fff75f; 
         }
+
+        .album-score7 {
+                    font-size: 1rem;
+                    color: #baf34a; 
+                }
+
+        .album-score8 {
+            font-size: 1rem;
+            color: #77f34a; 
+        }
+
+        .album-score9to10 {
+            font-size: 1rem;
+            color: #00ff26;
+        }
+
+        .album-scoretbd {
+            font-size: 1rem;
+            color: #606060;
+        }
+
+.album-solo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;   /* centers horizontally */
+    text-decoration: none;
+    color: #333;
+    margin-top: 10px;
+}
+
+.album-solo img {
+    width: 200px;
+    max-width: 90%;
+    border-radius: 12px;
+}
+
+.album-solo-name {
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+
 
 
     </style>
-    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
 </head>
 
 <body>
-    <h1 style="text-align: center;">NB2</h1>
+    <a class="album-solo">
+        <img src="../album_covers/nb2_no-buses.jpg" alt="NB2">
+        <div class="album-solo-name">NB2</div>
+        <div class="album-score9to10">8.5/10</div>
+    </a>
 
 
-        <h2>ALbum music music</h2>
 
+    <p><b><u>17.02.26 - First Listen</u></b>
+        <br>
+Spotify recommended this to me; I listened whilst studying. This band reminded me of Geese’s vibe except they’re more uplifting and, of course, Japanese. I really liked the sheer amount of dissonance and juxtaposition between the two lead guitars. It was really cool when there was a soft relaxing guitar melody layered beneath a screeching distorted monolith of sound. Also, the drummer was very legit. The hi-hats were so soft, yet swift; they were mesmerising to listen to. All in all I enjoyed. I like this album.
+<br></p>
 
+<p><b><u>22.02.26 - Second Listen</u></b><br>
+My girlfriend said ‘Slip, Fall, Sleep’ made her feel like a japanese protagonist of sorts. I hear that.Also, I concur with my previous review. I like this album.
+</p>
+
+<p><b><u>26.02.26 A couple listens later…</u></b><br>
+
+Soothing yet rebellious. Somber defiance. Provided comfort for me when conflicted internally. I like this album. 
+</p>
+
+<p><b><u>28.02.26 Thoughts</u></b> <br>
+Here, ‘No Buses’ have combined a great musical hybrid of both rock and jazz esc instrumentals infused with catchy Japanese sounding melodies. The project has a cohesive and somewhat distinct sound, it’s managed to capture the essence of derivative rock and expand upon it in a way, that is, to me, positive and enjoyable. While some songs, at first, can be abrasive and catchy, the novelty can wear a bit thin and start to sound a tad repetitive. I can only go so far in my thoughts on whether the body of work is complete lyrically as, to be frank, I have not idea what’s being said. Nonetheless, from a musical and production point of view, the whole album is very well put together and well performed. There are a few lapses of flow, and of course there’s quite literally a language barrier, but overall I truly think this is a wonderful body of work. 
+Healthy 8, (8.5). </p>
 
 
 
@@ -76,3 +187,4 @@
 </body>
 
 </html>
+
