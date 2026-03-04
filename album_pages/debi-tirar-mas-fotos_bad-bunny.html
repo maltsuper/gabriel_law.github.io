@@ -34,8 +34,35 @@
     src: url('../fonts/LondrinaSolid-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
+        }
 
-}
+
+
+        /* Display list items side by side */
+        ul.breadcrumb li {
+        display: inline;
+        font-size: 18px;
+        }
+
+        /* Add a slash symbol (/) before/behind each list item */
+        ul.breadcrumb li+li:before {
+        padding: 8px;
+        color: black;
+        content: "/\00a0";
+        }
+
+        /* Add a color to all links inside the list */
+        ul.breadcrumb li a {
+        color: #868686;
+        text-decoration: none;
+        }
+
+        /* Add a color on mouse-over */
+        ul.breadcrumb li a:hover {
+        color: #001930;
+        text-decoration: underline;
+        }
+
         body { font-family: 'Bebas Neue', Arial, sans-serif; 
         padding: 40px; 
         background: #FFFFFF; 
@@ -154,6 +181,11 @@
 </head>
 
 <body>
+
+        <ul class="breadcrumb">
+  <li><a href="../index.html">LWFL RVWS</a></li>
+  <li>DeBÍ TiRAR MáS FOToS</li>
+</ul>
     <a class="album-solo">
         <img src="../album_covers/debi-tirar-mas-fotos_bad-bunny.jpg" alt="Debi Tirar Mas Fotos">
         <div class="album-solo-name">DeBÍ TiRAR MáS FOToS</div>
