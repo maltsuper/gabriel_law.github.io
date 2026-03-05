@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>LWFL RVWS</title>
+    <meta charset="UTF-8">
+
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet"> 
+    <style>
+        @font-face {
+  font-family: 'Bebas Neue';
+  src: url('../fonts/BebasNeue-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+        }
+
+        @font-face {
+    font-family: 'Gruppo';
+    src: url('../fonts/Gruppo-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+        }
+
+        @font-face {
+    font-family: 'Mynerve';
+    src: url('../fonts/Mynerve-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+        }
+        @font-face {
+    font-family: 'LondrinaSolid';
+    src: url('../fonts/LondrinaSolid-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+            /* Style the list */
+        ul.breadcrumb {
+        padding: 10px 16px;
+        list-style: none;
+
+        }
+
+            /* Display list items side by side */
+            ul.breadcrumb li {
+            display: inline;
+            font-size: 18px;
+            }
+
+            /* Add a slash symbol (/) before/behind each list item */
+            ul.breadcrumb li+li:before {
+            padding: 8px;
+            color: black;
+            content: "/\00a0";
+            }
+
+            /* Add a color to all links inside the list */
+            ul.breadcrumb li a {
+            color: #868686;
+            text-decoration: none;
+            }
+
+            /* Add a color on mouse-over */
+            ul.breadcrumb li a:hover {
+            color: #001930;
+            text-decoration: underline;
+            }
+
+
+        body { font-family: 'Bebas Neue', Arial, sans-serif; 
+        padding: 40px; 
+        background: #FFFFFF; 
+    }
+        h1 { 
+            color: #333;
+             }
+
+        p { font-family: 'Gruppo', Arial, sans-serif; 
+        padding: 20px; 
+            }
+	
+.album-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 30px;
+            justify-items: center;
+        }
+
+        .album {
+            text-align: center;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+
+        .album img {
+            width: 180px;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .album:hover {
+            transform: scale(1.05);
+        }
+
+        .album-name {
+            margin-top: 10px;
+            font-size: 1.2rem;
+        }
+
+        .album-score0 {
+                    font-size: 1rem;
+                    color: #ff2525; 
+                }
+        
+        .album-score1to2 {
+                            font-size: 1rem;
+                            color: #f84825; 
+                        }
+
+        .album-score3 {
+                    font-size: 1rem;
+                    color: #e4664a; 
+                }
+
+        .album-score4 {
+                    font-size: 1rem;
+                    color: #ff7a4d; 
+                }
+
+        .album-score5 {
+                    font-size: 1rem;
+                    color: #f1a34b; 
+
+        }
+        .album-score5 {
+                    font-size: 1rem;
+                    color: #606060; 
+                }
+            .album-score5up {
+                font-size: 1rem;
+                color: #f1cd4b; 
+                }
+
+        .album-score6 {
+            font-size: 1rem;
+            color: #fff75f; 
+        }
+
+        .album-score7 {
+                    font-size: 1rem;
+                    color: #baf34a; 
+                }
+
+        .album-score8 {
+            font-size: 1rem;
+            color: #77f34a; 
+        }
+
+        .album-score9to10 {
+            font-size: 1rem;
+            color: #00ff26;
+        }
+
+        .album-scoretbd {
+            font-size: 1rem;
+            color: #606060;
+        }
+
+
+.album-solo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;   /* centers horizontally */
+    text-decoration: none;
+    color: #333;
+    margin-top: 10px;
+}
+
+.album-solo img {
+    width: 200px;
+    max-width: 90%;
+    border-radius: 12px;
+}
+
+.album-solo-name {
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+
+
+
+    </style>
+    <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+</head>
+
+<body>
+
+            <ul class="breadcrumb">
+  <li><a href="../index.html">LWFL RVWS</a></li>
+  <li>The Dark Side of the Moon</li>
+
+    <a class="album-solo">
+        <img src="../album_covers/pink-floyd_the-dark-side-of-the-moon.jpg" alt="The Dark Side Of The Moon">
+        <div class="album-solo-name">The Dark Side of the Moon</div>
+        <div class="album-scoretbd">x/10</div>
+    </a>
+
+
+
+    <p><b><u>15.08.25 - General Thoughts</u></b>
+        <br>
+
+This album is spectacular. It take me to a place that I don’t quite understand. The way each song transitions into the next edges on the side of mystical. The sound effects used in this are impeccable, if someone told me this was released in 2025 I wouldn’t be surprised. Very well produced. I really like this album.</p>
+
+
+
+
+
+</body>
+
+</html>
+
